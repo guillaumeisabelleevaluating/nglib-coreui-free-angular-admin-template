@@ -18,6 +18,9 @@
   "copyright": "Copyright 2018 creativeLabs Łukasz Holeczek",
   "license": "MIT",
   "scripts": {
+	  "dk:build":"docker build -t nodalping .",
+	  "dk:run-fg":"./rundocker-fg",
+	  "dk:run":"npm run dk:run-fg",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod --aot --buildOptimizer --commonChunk --vendorChunk --optimization --progress",
