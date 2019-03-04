@@ -23,7 +23,7 @@
   "scripts": {
 	  "dk:build":"docker build -t nodalping .",
 	  "dk:run-fg":"./rundocker-fg",
-	  "dk:run-bg":"./rundocker-bg",
+	  "dk:run-bg":"./stopdocker ; ./rundocker-bg",
 	  "dk:run":"npm run dk:run-bg",
 	  "dk:stop":"./stopdocker",
     "ng": "ng",
