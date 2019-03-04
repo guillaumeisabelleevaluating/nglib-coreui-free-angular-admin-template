@@ -20,7 +20,9 @@
   "scripts": {
 	  "dk:build":"docker build -t nodalping .",
 	  "dk:run-fg":"./rundocker-fg",
-	  "dk:run":"npm run dk:run-fg",
+	  "dk:run-bg":"./rundocker-bg",
+	  "dk:run":"npm run dk:run-bg",
+	  "dk:stop":"./stopdocker",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod --aot --buildOptimizer --commonChunk --vendorChunk --optimization --progress",
