@@ -1,7 +1,7 @@
 {
-  "name": "@coreui/coreui-free-angular-admin-template",
-  "version": "2.4.3",
-  "description": "CoreUI Free Angular 2+ Admin Template",
+  "name": "nodalping-coreui-angular-admin-template-app",
+  "version": "0.0.1",
+  "description": "NodalpiNG is a Docker hosting a CoreUI Free Angular 2+ Admin Template",
   "author": {
     "name": "Łukasz Holeczek",
     "url": "http://holeczek.pl",
@@ -12,6 +12,9 @@
     {
       "name": "Andrzej Kopański",
       "url": "https://github.com/xidedix"
+    }, {
+      "name": "Guillaume Isabelle",
+      "url": "http://guillaumeisabelle.com"
     }
   ],
   "homepage": "https://coreui.io/angular",
