@@ -46,12 +46,21 @@ export const navItems: NavData[] = [
   {
     name: "Ajouter",
     url: "/theme/colors",
-    icon: "icon-plus"
+    icon: "cui-user-follow"
   },
   {
     name: "Monitorer",
     url: "/theme/typography",
     icon: "icon-heart"
+  },
+  {
+    title:true,
+    name: "References"
+  },
+  {
+    name: "Anim Themo",
+    url: "/theme/typography",
+    icon: "cui-thermometer-half"
   },
   {
     title: true,
