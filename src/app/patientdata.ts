@@ -4,7 +4,7 @@ export class Patientdata {
   id: string;
   first: string;
   last: string;
-  born: date;
+  born: Date;
   vsign: Vsign;
   avg: Vsign;
   mx: Vsign;
