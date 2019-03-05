@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47.25" height="94.5" viewBox="0 0 47.25 94.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c319ff;
+      }
+    </style>
+  </defs>
+  <g id="temp-icon" transform="translate(-128)">
+    <g id="Group_3" data-name="Group 3" transform="translate(128)">
+      <g id="Group_2" data-name="Group 2">
+        <path id="Path_19" data-name="Path 19" class="cls-1" d="M167.375,53.266V15.75a15.75,15.75,0,0,0-31.5,0V53.266a23.625,23.625,0,1,0,31.5,0Zm-15.75,33.359a15.75,15.75,0,0,1-10.5-27.491l2.623-2.348V15.75a7.875,7.875,0,1,1,15.75,0V56.786l2.623,2.348a15.75,15.75,0,0,1-10.5,27.491Z" transform="translate(-128)"/>
+      </g>
+    </g>
+    <g id="Group_5" data-name="Group 5" transform="translate(147.688 31.5)">
+      <g id="Group_4" data-name="Group 4">
+        <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-1" width="7.875" height="47.25"/>
+      </g>
+    </g>
+    <g id="Group_7" data-name="Group 7" transform="translate(139.813 59.063)">
+      <g id="Group_6" data-name="Group 6">
+        <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-1" cx="11.813" cy="11.813" r="11.813"/>
+      </g>
+    </g>
+  </g>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function() {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function(msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			console.log('Live reload enabled.');
+		})();
+	}
+	// ]]>
+</script>
+</svg>

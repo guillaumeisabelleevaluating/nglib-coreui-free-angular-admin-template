@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80.989" height="74.512" viewBox="0 0 80.989 74.512">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #58c758;
+      }
+    </style>
+  </defs>
+  <g id="heartbeat-icon" transform="translate(-18.519 -32)">
+    <path id="like" class="cls-1" d="M40.252,15.163A21.182,21.182,0,0,1,59.674,2C71.374,2,79.8,12.01,80.86,23.939c0,0,.572,2.961-.687,8.292A36.662,36.662,0,0,1,69,50.863L40.252,76.512,11.99,50.862A36.655,36.655,0,0,1,.816,32.229C-.442,26.9.13,23.937.13,23.937,1.189,12.009,9.615,2,21.315,2,30,2,36.984,7.415,40.252,15.163Z" transform="translate(18.519 30)"/>
+  </g>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function() {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function(msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			console.log('Live reload enabled.');
+		})();
+	}
+	// ]]>
+</script>
+</svg>
