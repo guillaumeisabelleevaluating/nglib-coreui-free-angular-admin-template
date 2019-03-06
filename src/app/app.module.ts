@@ -40,6 +40,7 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 import { ChartsModule } from 'ng2-charts/ng2-charts';
 import { PatientComponent } from './patient/patient.component';
+import { MonitpatientsComponent } from './monitpatients/monitpatients.component';
 
 @NgModule({
   imports: [
@@ -62,7 +63,8 @@ import { PatientComponent } from './patient/patient.component';
     P500Component,
     LoginComponent,
     RegisterComponent,
-    PatientComponent
+    PatientComponent,
+    MonitpatientsComponent
   ],
   providers: [{
     provide: LocationStrategy,

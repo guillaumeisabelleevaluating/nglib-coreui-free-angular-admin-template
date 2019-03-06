@@ -9,4 +9,5 @@ export class Patientdata {
   avg: Vsign;
   mx: Vsign;
   min: Vsign;
+  status: number;
 }

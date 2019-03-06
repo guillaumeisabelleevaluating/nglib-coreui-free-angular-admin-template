@@ -54,13 +54,33 @@ export const navItems: NavData[] = [
     icon: "icon-heart"
   },
   {
-    title:true,
-    name: "References"
+    title: true,
+    name: "Type de Monitorage"
+  },
+
+  {
+    name: "Cardiaque",
+    url: "/theme/typography",
+    icon: "icon-heart icons"
   },
   {
-    name: "Anim Themo",
+    name: "Saturation",
     url: "/theme/typography",
-    icon: "cui-thermometer-half"
+    icon: "icon-social-soundcloud icons"
+  },
+  {
+    name: "Thermique",
+    url: "/theme/typography",
+    icon: "fa fa-thermometer-full"
+  },
+  {
+    name: "Telepsychiatrique",
+    url: "/theme/typography",
+    icon: "cui-drop"
+  },
+  {
+    title: true,
+    name: "References/Idea"
   },
   {
     title: true,

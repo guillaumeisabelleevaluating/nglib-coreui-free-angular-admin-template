@@ -1,11 +1,13 @@
-import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { ChartsModule } from 'ng2-charts/ng2-charts';
-import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
-import { ButtonsModule } from 'ngx-bootstrap/buttons';
+import { NgModule } from "@angular/core";
+import { FormsModule } from "@angular/forms";
+import { ChartsModule } from "ng2-charts/ng2-charts";
+import { BsDropdownModule } from "ngx-bootstrap/dropdown";
+import { ButtonsModule } from "ngx-bootstrap/buttons";
 
-import { DashboardComponent } from './dashboard.component';
-import { DashboardRoutingModule } from './dashboard-routing.module';
+import { DashboardComponent } from "./dashboard.component";
+import { DashboardRoutingModule } from "./dashboard-routing.module";
+
+//import { MonitpatientsComponent } from "../../monitpatients/monitpatients.component";
 
 @NgModule({
   imports: [
@@ -15,6 +17,6 @@ import { DashboardRoutingModule } from './dashboard-routing.module';
     BsDropdownModule,
     ButtonsModule.forRoot()
   ],
-  declarations: [ DashboardComponent ]
+  declarations: [DashboardComponent]
 })
-export class DashboardModule { }
+export class DashboardModule {}

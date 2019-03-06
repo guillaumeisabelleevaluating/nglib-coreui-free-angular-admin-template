@@ -12,7 +12,8 @@
     {
       "name": "Andrzej Kopański",
       "url": "https://github.com/xidedix"
-    }, {
+    },
+    {
       "name": "Guillaume Isabelle",
       "url": "http://guillaumeisabelle.com"
     }
@@ -21,11 +22,11 @@
   "copyright": "Copyright 2018 creativeLabs Łukasz Holeczek",
   "license": "MIT",
   "scripts": {
-	  "dk:build":"docker build -t nodalping .",
-	  "dk:run-fg":"./rundocker-fg",
-	  "dk:run-bg":"./stopdocker ; ./rundocker-bg",
-	  "dk:run":"npm run dk:run-bg",
-	  "dk:stop":"./stopdocker",
+    "dk:build": "docker build -t nodalping .",
+    "dk:run-fg": "./rundocker-fg",
+    "dk:run-bg": "./stopdocker ; ./rundocker-bg",
+    "dk:run": "npm run dk:run-bg",
+    "dk:stop": "./stopdocker",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod --aot --buildOptimizer --commonChunk --vendorChunk --optimization --progress",
