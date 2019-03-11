@@ -14,15 +14,15 @@ WORKDIR /usr/src/app
 ENV PATH /usr/src/app/node_modules/.bin:$PATH
 
 # Some install for Nonalping
-RUN npm i bootstrap typescript --g
-RUN npm i jquery popper.js --g
+#RUN npm i bootstrap typescript --g
+#RUN npm i jquery popper.js --g
 RUN npm i npm --g 
-RUN npm i gyp --g
+#RUN npm i gyp --g
 RUN npm i yarn --g
-RUN npm install -g @angular/cli @angular-devkit/build-angular
+#RUN npm install -g @angular/cli @angular-devkit/build-angular
 
-RUN npm install -g perfect-scrollbar  chalk  tsickle typescript
-RUN npm i @coreui/coreui --g
+#RUN npm install -g perfect-scrollbar  chalk  tsickle typescript
+#RUN npm i @coreui/coreui --g
 
 # install and cache app dependencies
 COPY package.json /usr/src/app/package.json
@@ -35,5 +35,6 @@ RUN yarn
 COPY . /usr/src/app
 
 # start app
-CMD ng serve --host 0.0.0.0 --port 4223 --disableHostCheck
+#CMD ng serve --host 0.0.0.0 --port 4223 --disableHostCheck
+CMD yarn start
 

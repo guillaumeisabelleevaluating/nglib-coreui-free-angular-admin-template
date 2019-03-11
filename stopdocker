@@ -1,2 +1,2 @@
-docker stop nodalping-container
-docker rm nodalping-container
+docker stop coreui-container
+docker rm coreui-container
