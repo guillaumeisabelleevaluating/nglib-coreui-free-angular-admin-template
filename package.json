@@ -26,7 +26,10 @@
     "dk:run-fg": "./rundocker-fg",
     "dk:run-bg": "./stopdocker ; ./rundocker-bg",
     "dk:run": "npm run dk:run-bg",
-    "dk:stop": "./stopdocker",
+    "dk:stop": "./stopdocker", 
+    "dk:tag":"docker tag coreui jgwill/coreui",
+    "dk:push":"docker push jgwill/coreui:latest",
+
     "browse:repo":"gixb https://github.com/guillaumeisabelleevaluating/nglib-coreui-free-angular-admin-template",
     "ng": "ng",
     "start": "ng serve --host 0.0.0.0 --port 4223 --disableHostCheck",
