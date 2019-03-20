@@ -50,7 +50,7 @@ export const navItems: NavData[] = [
   },
   {
     name: "Monitorer",
-    url: "/theme/typography",
+    url: "/monitpatients",
     icon: "icon-heart"
   },
   {

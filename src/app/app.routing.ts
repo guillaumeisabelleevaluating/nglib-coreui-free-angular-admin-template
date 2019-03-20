@@ -8,6 +8,8 @@ import { P404Component } from './views/error/404.component';
 import { P500Component } from './views/error/500.component';
 import { LoginComponent } from './views/login/login.component';
 import { RegisterComponent } from './views/register/register.component';
+import { MonitpatientsComponent } from './monitpatients/monitpatients.component';
+import { MonitwrapperComponent } from './monitpatients/monitwrapper/monitwrapper.component';
 
 export const routes: Routes = [
   {
@@ -37,6 +39,13 @@ export const routes: Routes = [
     }
   },
   {
+    path: 'monitpatients',
+    component: MonitwrapperComponent,
+    data: {
+      title: 'Patient Monitoring'
+    }
+  },
+  {
     path: 'register',
     component: RegisterComponent,
     data: {
@@ -58,7 +67,7 @@ export const routes: Routes = [
         path: 'buttons',
         loadChildren: './views/buttons/buttons.module#ButtonsModule'
       },
-      
+
       {
         path: 'charts',
         loadChildren: './views/chartjs/chartjs.module#ChartJSModule'
@@ -89,7 +98,7 @@ export const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [ RouterModule.forRoot(routes) ],
-  exports: [ RouterModule ]
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }

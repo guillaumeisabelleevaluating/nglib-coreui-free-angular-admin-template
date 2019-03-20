@@ -41,6 +41,7 @@ import { TabsModule } from 'ngx-bootstrap/tabs';
 import { ChartsModule } from 'ng2-charts/ng2-charts';
 import { PatientComponent } from './patient/patient.component';
 import { MonitpatientsComponent } from './monitpatients/monitpatients.component';
+import { MonitwrapperComponent } from './monitpatients/monitwrapper/monitwrapper.component';
 
 @NgModule({
   imports: [
@@ -64,7 +65,8 @@ import { MonitpatientsComponent } from './monitpatients/monitpatients.component'
     LoginComponent,
     RegisterComponent,
     PatientComponent,
-    MonitpatientsComponent
+    MonitpatientsComponent,
+    MonitwrapperComponent
   ],
   providers: [{
     provide: LocationStrategy,
